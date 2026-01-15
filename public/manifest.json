@@ -1,0 +1,33 @@
+{
+    "manifest_version": 3,
+    "version": "1.0.0",
+    "name": "GitHub Groups",
+    "description": "Finally sort your GitHub repositories into groups",
+    "side_panel": {
+        "default_path": "pages/side_panel.html"
+    },
+    "background": {
+        "service_worker": "assets/background.js",
+        "type": "module"
+    },
+    "content_scripts": [
+        {
+            "matches": [ "https://github.com/*" ],
+            "js": [ "assets/contentLoader.js" ],
+            "type": "module"
+        }
+    ],
+    "permissions": [ 
+        "sidePanel",
+        "storage",
+        "scripting",
+        "contextMenus"
+    ],
+    "host_permissions": [ "https://github.com/*" ],
+    "web_accessible_resources": [
+		{
+			"resources": [ "assets/*" ],
+			"matches": [ "https://*/*" ]
+		}
+	]
+}
