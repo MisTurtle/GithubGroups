@@ -8,7 +8,7 @@
     <a href="https://github.com/MisTurtle/GithubGroups/stargazers"><img alt="GitHub Repo Stars" src="https://img.shields.io/github/stars/MisTurtle/GithubGroups?style=flat"></a>
     <a href="https://github.com/MisTurtle/GithubGroups/forks"><img alt="GitHub forks" src="https://img.shields.io/github/forks/MisTurtle/GithubGroups?style=flat"></a>
     <a href="https://github.com/MisTurtle/GithubGroups/issues"><img alt="Issues" src="https://img.shields.io/github/issues/MisTurtle/GithubGroups?logo=github&style=flat"></a>
-    <a href="><img alt="License" src="https://img.shields.io/github/license/MisTurtle/GithubGroups"></a>
+    <a href="https://github.com/MisTurtle/GithubGroups/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/github/license/MisTurtle/GithubGroups?style=flat"></a>
     <a><img alt="Made with love" src="https://img.shields.io/badge/made_with-%F0%9F%92%96-white?style=flat"></a>
 </p>
 
